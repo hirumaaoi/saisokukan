@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "menu": "2019",
+    "url": "/"
+  },
+  {
+    "id": 2,
+    "menu": "2018",
+    "url": "/2018/"
+  },
+  {
+    "id": 3,
+    "menu": "2017",
+    "url": "/2017/"
+  },
+  {
+    "id": 4,
+    "menu": "2016",
+    "url": "/2016/"
+  },
+  {
+    "id": 5,
+    "menu": "Illust Archives",
+    "url": "/archives/illust/"
+  },
+  {
+    "id": 6,
+    "menu": "Sound Archives",
+    "url": "/archives/sound/"
+  },
+  {
+    "id": 7,
+    "menu": "Blog",
+    "url": "/blog/"
+  }
+]

@@ -184,6 +184,18 @@ p {
 html {
   overflow-x: hidden;
 }
+h3,
+h4 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 4px;
+}
+h4 {
+  font-size: 20px;
+  margin-bottom: 1em;
+}
 header .in_header {
   width: 100%;
   height: 60px;
@@ -246,110 +258,8 @@ header .in_header .trajectory span {
   z-index: 10;
   padding-bottom: 80px;
 }
-.info_area {
-  background-color: #edf0f7;
-  padding: 40px 0;
-}
-.info_area ul {
-  max-width: 1600px;
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-}
-.info_area ul li a {
-  display: inline-block;
-  padding: 10px 20px;
-  transition: 0.3s ease opacity;
-}
-.info_area ul li a:link {
-  text-decoration: underline;
-}
-.info_area ul li a:link:hover {
-  opacity: 0.7;
-}
-.read_area {
-  max-width: 1600px;
-  margin: 80px auto 40px;
-  width: 80%;
-}
-.read_area p {
-  text-align: center;
-  letter-spacing: 1px;
-  line-height: 200%;
-  margin-bottom: 1em;
-}
-h3,
-h4 {
-  text-align: center;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 200%;
-  letter-spacing: 4px;
-}
-h4 {
-  font-size: 20px;
-  margin-bottom: 1em;
-}
-.b_wrap {
-  padding: 80px 0;
-  background-color: #edf0f7;
-}
-.a_jacket_area {
-  max-width: 1600px;
-  margin: 0 auto 80px;
-  width: 80%;
-  font-size: 0;
-  text-align: center;
-}
-.a_jacket_area img {
-  width: 50%;
-  height: auto;
-  max-width: 400px;
-  display: inline-block;
-}
-.a_jacket_area .table_wrap {
-  width: 45%;
-  margin-left: 5%;
-  display: inline-block;
-  vertical-align: top;
-}
-.a_jacket_area table {
-  width: 100%;
-}
-.a_jacket_area table th,
-.a_jacket_area table td {
-  border-bottom: 1px solid #000;
-  padding: 18px 15px;
-  font-size: 16px;
-  text-align: left;
-}
-.tracklists {
-  text-align: center;
-}
-.tracklists li {
-  font-size: 24px;
-  letter-spacing: 2px;
-  line-height: 200%;
-}
-.tracklists li span {
-  font-size: 14px;
-}
-.old_link {
-  padding: 80px 0;
-  text-align: center;
-  width: 80%;
-  margin: 0 auto;
-}
-.old_link a {
-  display: inline-block;
-  padding: 20px;
-  text-decoration: underline;
-  font-size: 20px;
-  transition: 0.3s ease opacity;
-}
-.old_link a:hover {
-  opacity: 0.7;
-}
+
+
 footer {
   position: fixed;
   bottom: 0;

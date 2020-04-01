@@ -1,0 +1,457 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  background: transparent;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+sup {
+  font-size: 70%;
+}
+body {
+  line-height: 1;
+}
+html,
+body {
+  width: 100%;
+}
+img {
+  height: auto;
+}
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+ul,
+ol {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+a {
+  background: transparent;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+:focus {
+  outline: 0;
+}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #cccccc;
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+* {
+  -webkit-text-size-adjust: none;
+}
+body {
+  font-family: "游ゴシック", YuGothic, "Noto Sans Japanese",
+    "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+    sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+.vol {
+  font-family: "Vollkorn", serif;
+}
+a,
+p {
+  color: #000000;
+}
+html {
+  overflow-x: hidden;
+}
+.l-header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: #fff;
+
+  &__sitename {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    svg {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+.l-menu {
+  display: flex;
+  margin-right: 10px;
+}
+.l-menu__list {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin: 0 10px;
+}
+.l-menu--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.l-humberger {
+  display: none;
+}
+.l-overlay {
+  display: none;
+}
+@media screen and (max-width:768px){
+
+  .l-humberger {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+  .l-overlay {
+    display: none;
+  }
+}
+.l-footer__copyright {
+  text-align: right;
+}
+#top {
+  box-sizing: border-box;;
+}
+#top .bg {
+  background: url('~assets/img/main_v2019.png') no-repeat center top/cover;
+  min-height: 650px;
+  height: 100vh;
+  max-width: 100vw;
+  margin: 0 auto;
+  position: relative;
+}
+#top .bg:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+#top .sc {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 960px;
+  width: 80%;
+  z-index: 10;
+  padding-bottom: 80px;
+}
+.info_area {
+  background-color: #edf0f7;
+  padding: 40px 0;
+}
+.info_area ul {
+  max-width: 1600px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.info_area ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  transition: 0.3s ease opacity;
+}
+.info_area ul li a:link {
+  text-decoration: underline;
+}
+.info_area ul li a:link:hover {
+  opacity: 0.7;
+}
+.read_area {
+  max-width: 1600px;
+  margin: 80px auto 40px;
+  width: 80%;
+}
+.read_area p {
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 200%;
+  margin-bottom: 1em;
+}
+h3,
+h4 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 4px;
+}
+h4 {
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+.b_wrap {
+  padding: 80px 0;
+  background-color: #edf0f7;
+}
+.a_jacket_area {
+  max-width: 1600px;
+  margin: 0 auto 80px;
+  width: 80%;
+  font-size: 0;
+  text-align: center;
+}
+.a_jacket_area img {
+  width: 50%;
+  height: auto;
+  max-width: 400px;
+  display: inline-block;
+}
+.a_jacket_area .table_wrap {
+  width: 45%;
+  margin-left: 5%;
+  display: inline-block;
+  vertical-align: top;
+}
+.a_jacket_area table {
+  width: 100%;
+}
+.a_jacket_area table th,
+.a_jacket_area table td {
+  border-bottom: 1px solid #000;
+  padding: 18px 15px;
+  font-size: 16px;
+  text-align: left;
+}
+.tracklists {
+  text-align: center;
+}
+.tracklists li {
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 200%;
+}
+.tracklists li span {
+  font-size: 14px;
+}
+.old_link {
+  padding: 80px 0;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.old_link a {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: underline;
+  font-size: 20px;
+  transition: 0.3s ease opacity;
+}
+.old_link a:hover {
+  opacity: 0.7;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  height: auto;
+  background-color: #fff;
+  padding: 20px;
+  font-size: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    z-index: 20;
+  }
+  #top .bg {
+    max-height: none;
+    height: 100vh;
+    background-size: auto 60%;
+    background-position: right -80px center;
+  }
+  header .in_header {
+    height: 50px;
+  }
+  #top .sc {
+    width: 100%;
+  }
+  header .in_header .s_logo {
+    margin-left: 10px;
+    padding-top: 14px;
+    width: 140px;
+  }
+  header .in_header .trajectory {
+    right: 10px;
+    font-size: 18px;
+    top: 20px;
+  }
+  header .in_header .trajectory span{
+    display: none;
+  }
+  h3,
+  h4 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  .read_area {
+    margin: 45px auto 20px;
+    width: 90%;
+  }
+  .read_area p {
+    font-size: 14px;
+  }
+  .a_jacket_area img,
+  .a_jacket_area .table_wrap {
+    width: 100%;
+  }
+  .a_jacket_area img th,
+  .a_jacket_area img td,
+  .a_jacket_area .table_wrap th,
+  .a_jacket_area .table_wrap td {
+    font-size: 14px;
+    　padding: 12px 10px;
+  }
+  .a_jacket_area img {
+    margin-bottom: 20px;
+  }
+  .tracklists li {
+    font-size: 16px;
+  }
+  .b_wrap,
+  .old_link {
+    padding: 40px 0;
+  }
+}
